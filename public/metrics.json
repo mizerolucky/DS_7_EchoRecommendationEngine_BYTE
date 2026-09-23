@@ -1,0 +1,81 @@
+{
+  "dataset": "MovieLens latest-small",
+  "source": "https://files.grouplens.org/datasets/movielens/ml-latest-small.zip",
+  "seed": 42,
+  "counts": {
+    "train": 71126,
+    "validation": 14855,
+    "test": 14855,
+    "users": 610,
+    "movies": 9742
+  },
+  "selected": {
+    "rank": 12,
+    "shrink": 1.0,
+    "bias_regularization": 12
+  },
+  "validation_search": [
+    {
+      "rank": 12,
+      "shrink": 0.5,
+      "rmse": 0.8603,
+      "mae": 0.6652
+    },
+    {
+      "rank": 12,
+      "shrink": 0.8,
+      "rmse": 0.858,
+      "mae": 0.6631
+    },
+    {
+      "rank": 12,
+      "shrink": 1.0,
+      "rmse": 0.857,
+      "mae": 0.662
+    },
+    {
+      "rank": 24,
+      "shrink": 0.5,
+      "rmse": 0.8609,
+      "mae": 0.6658
+    },
+    {
+      "rank": 24,
+      "shrink": 0.8,
+      "rmse": 0.8591,
+      "mae": 0.664
+    },
+    {
+      "rank": 24,
+      "shrink": 1.0,
+      "rmse": 0.8583,
+      "mae": 0.6633
+    },
+    {
+      "rank": 40,
+      "shrink": 0.5,
+      "rmse": 0.8612,
+      "mae": 0.6657
+    },
+    {
+      "rank": 40,
+      "shrink": 0.8,
+      "rmse": 0.8596,
+      "mae": 0.6641
+    },
+    {
+      "rank": 40,
+      "shrink": 1.0,
+      "rmse": 0.8589,
+      "mae": 0.6635
+    }
+  ],
+  "test_baseline": {
+    "rmse": 0.8777,
+    "mae": 0.6753
+  },
+  "test_model": {
+    "rmse": 0.8687,
+    "mae": 0.666
+  }
+}

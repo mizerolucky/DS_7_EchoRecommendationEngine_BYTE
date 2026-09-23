@@ -1,5 +1,8 @@
 # Echo — Recommendation Engine
 
+<img width="947" height="460" alt="image" src="https://github.com/user-attachments/assets/e6ab249e-12bd-4486-90af-7c9a19929c93" />
+
+
 An interactive movie recommender built for **AVIP 2026 Data Science Task 7**. It uses collaborative filtering through truncated sparse SVD on user–movie ratings, returns five unseen titles for any MovieLens viewer ID, and displays measured performance on held-out ratings. [Explore the source dataset](https://grouplens.org/datasets/movielens/latest/).
 
 ## Results
@@ -33,6 +36,9 @@ npm run dev
 ```
 
 Open the local URL printed by Vite. Deploy the repository as a **Vite** project on Vercel using `npm run build` and output directory `dist`. The app needs no database, secrets, or always-on Python server because the reproducible Python pipeline exports the demo's JSON data. Rerun `python src/train.py` and commit the changed `public/` files if you change the model.
+
+<img width="948" height="475" alt="image" src="https://github.com/user-attachments/assets/8e68510e-b60a-49b1-86cc-cb12bb951690" />
+
 
 ## Deliverables
 
